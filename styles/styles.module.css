@@ -1,0 +1,72 @@
+
+/* New classes for form and display */
+.formContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .customForm {
+    /* Your form styles */
+  }
+  
+  .displayContainer {
+    margin-top: 20px;
+  }
+  
+  .displayTitle {
+    margin-bottom: 10px;
+  }
+  
+  .displayImage {
+    max-width: 100%;
+    height: auto;
+  }
+
+.displayCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+
+.formCard {
+    border: 1px solid maroon;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    margin: 20px auto; /* Add margin to separate it from the display card */
+    text-align: center;
+  }
+
+.customSelect {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Make the dropdown full width */
+    margin-bottom: 10px;
+  }
+  
+  .customButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .customButton:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
